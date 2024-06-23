@@ -46,13 +46,14 @@ This project predicts the overall rating of a football player based on various a
 
 ## Usage
 1. Ensure you have the model files (`scaler_ensemble.pkl`, `sports_prediction_ensemble_model.pkl`, and `training_features.pkl`) in the project directory.
+2. Download them from this link : `https://drive.google.com/drive/folders/1i5t-Ll5cfszpXFIMbSo1R2Hgl4Uei-qV?usp=sharing` since it cannot be uploaded directly to github.
 
-2. Run the Streamlit application:
+3. Run the Streamlit application:
     ```bash
     streamlit run app.py
     ```
 
-3. Open your web browser and go to `http://localhost:8501` to interact with the application.
+4. Open your web browser and go to `http://localhost:8501` to interact with the application.
 
 ## Model Training
 To train the model, use the provided script (`train_model.py`). This script will load the dataset, preprocess the data, train the models, and save the necessary files for the Streamlit application.
